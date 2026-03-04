@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: #f5f2eb;
+    color: #2e2e2e;
+    line-height: 1.8;
+}
+
+header {
+    background: linear-gradient(to right, #5B1A1A, #2e2e2e);
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    color: #C9A227;
+    font-size: 34px;
+    letter-spacing: 2px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #C9A227;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 160px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 50px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.section {
+    padding: 80px 40px;
+}
+
+.card {
+    background: white;
+    border-left: 6px solid #C9A227;
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    animation: fadeUp 1.2s ease forwards;
+}
+
+.card h2 {
+    color: #5B1A1A;
+}
+
+footer {
+    background: #2e2e2e;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeUp {
+    from {opacity: 0; transform: translateY(30px);}
+    to {opacity: 1; transform: translateY(0);}
+}
