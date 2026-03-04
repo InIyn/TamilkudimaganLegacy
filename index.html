@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tamilkudimagan Legacy</title>
+
+<!-- Vintage font -->
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+
+<style>
+/* BODY */
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background: #f3ead7; /* Sandalwood background */
+    color: #2e2e2e;
+    line-height: 1.8;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(to right, #C49E71, #8C6A3D); /* Royal gold → dark sandal gradient */
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Cinzel', serif;  /* Vintage font */
+    font-size: 48px;
+    background: linear-gradient(90deg, #FFD700, #FFC107, #FFD700); /* Royal gold gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 3px;
+    text-shadow: 0 0 8px #FFD700, 2px 2px 4px rgba(0,0,0,0.5); /* shadow + glow */
+    animation: shimmer 3s infinite linear; /* shimmering effect */
+}
+
+/* shimmer animation */
+@keyframes shimmer {
+    0% { background-position: -500px; }
+    100% { background-position: 500px; }
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+
+/* HERO */
+.hero {
+    background: #C49E71; /* Royal gold hero background */
+    color: #fff;
+    padding: 140px 20px;
+    text-align: center;
+    border-bottom: 6px solid #8C6A3D; /* dark sandal border */
+}
+
+.hero h2 {
+    font-size: 48px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* SECTION */
+.section {
+    padding: 80px 40px;
+}
+
+.card {
+    background: #fffaf0; /* light sandal card */
+    border-left: 6px solid #FFD700; /* Royal gold accent */
+    margin: 40px auto;
+    padding: 35px;
+    max-width: 1000px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    animation: fadeUp 1.2s ease forwards;
+}
+
+.card h2 {
+    color: #8C6A3D; /* Dark sandal headings */
+}
+
+/* Decorative Divider */
+.divider {
+    text-align: center;
+    font-size: 40px;
+    color: #FFD700;
+    margin: 40px 0;
+}
+
+/* FOOTER */
+footer {
+    background: #8C6A3D; /* Dark sandal footer */
+    color: #fffaf0;
+    text-align: center;
+    padding: 40px;
+    font-size: 14px;
+}
+
+/* ANIMATIONS */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeUp {
+    from {opacity: 0; transform: translateY(30px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>TamilkudimaganLegacy</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="achievements.html">Achievements</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>A Legacy of Governance & Cultural Strength</h2>
+    <p>Honoring the enduring contributions of Minister M. Tamilkudimagan</p>
+</section>
+
+<div class="divider">❦ ❦ ❦</div>
+
+<section class="section">
+
+    <div class="card">
+        <h2>Historical Foundation</h2>
+        <p>
+            The public life of M. Tamilkudimagan reflects a synthesis of Tamil cultural
+            heritage and structured governance principles reminiscent of classical civic traditions.
+            His leadership embodied discipline, institutional respect, and long-term vision.
+        </p>
+        <p>
+            Inspired by values of social equity and administrative reform,
+            his contributions shaped educational and welfare frameworks
+            that continue influencing public discourse.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Educational Reforms</h2>
+        <p>
+            Strengthened curriculum standards and institutional accountability.
+            Promoted inclusive education policies ensuring accessibility
+            across socio-economic backgrounds.
+        </p>
+        <p>
+            Encouraged modernization while safeguarding regional linguistic and cultural identity.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Social Justice & Welfare</h2>
+        <p>
+            Advocated equitable resource distribution and policy frameworks
+            that prioritized marginalized communities.
+        </p>
+        <p>
+            His approach focused on sustainable empowerment rather than temporary relief measures.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Administrative Vision</h2>
+        <p>
+            Emphasized transparency, institutional discipline, and structural reform.
+            His tenure was marked by systematic policy execution
+            and modernization of governance practices.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Chronological Timeline</h2>
+        <p><strong>Early Career:</strong> Engagement in civic and administrative initiatives.</p>
+        <p><strong>Ministerial Leadership:</strong> Implementation of major educational reforms.</p>
+        <p><strong>Policy Impact:</strong> Strengthening of welfare and infrastructure programs.</p>
+        <p><strong>Legacy Phase:</strong> Continued institutional relevance and historical influence.</p>
+    </div>
+
+</section>
+
+<div class="divider">❦ ❦ ❦</div>
+
+<footer>
+    © 2026 Tamilkudimagan Legacy | Designed as a Historical Archive Tribute
+</footer>
+
+</body>
+</html>
