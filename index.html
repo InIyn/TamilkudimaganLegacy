@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tamilkudimagan Legacy</title>
+
+<!-- Vintage font -->
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+
+<style>
+/* BODY */
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background: #f3ead7; /* Sandalwood */
+    color: #2e2e2e;
+    line-height: 1.8;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(to right, #C49E71, #8C6A3D);
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+header h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 60px;
+    background: linear-gradient(90deg, #FFD700, #FFC107, #FFD700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px #FFD700, 2px 2px 6px rgba(0,0,0,0.5);
+    animation: shimmer 3s infinite linear;
+    margin: 0;
+}
+
+/* Shimmer animation */
+@keyframes shimmer {
+    0% { background-position: -500px; }
+    100% { background-position: 500px; }
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+
+/* SECTIONS */
+section {
+    padding: 80px 40px;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 1.2s forwards;
+    animation-delay: 0.2s;
+}
+
+section h2 {
+    color: #8C6A3D;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section h3 {
+    color: #C49E71;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+section p {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+/* Divider */
+.divider {
+    text-align: center;
+    font-size: 40px;
+    color: #FFD700;
+    margin: 40px 0;
+}
+
+/* Footer */
+footer {
+    background: #8C6A3D;
+    color: #fffaf0;
+    text-align: center;
+    padding: 40px;
+    font-size: 14px;
+}
+
+/* Animations */
+@keyframes fadeUp {
+    to { opacity: 1; transform: translateY(0);}
+}
+
+/* Floating Tamil letters */
+.floating-tamil {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.floating-tamil span {
+    position: absolute;
+    font-size: 24px;
+    color: #FFD700;
+    opacity: 0.8;
+    animation: floatLetters linear infinite;
+}
+
+.floating-tamil span:nth-child(1) { left: 5%; animation-duration: 18s; animation-delay: 0s; }
+.floating-tamil span:nth-child(2) { left: 20%; animation-duration: 22s; animation-delay: 2s; }
+.floating-tamil span:nth-child(3) { left: 35%; animation-duration: 16s; animation-delay: 4s; }
+.floating-tamil span:nth-child(4) { left: 50%; animation-duration: 20s; animation-delay: 1s; }
+.floating-tamil span:nth-child(5) { left: 65%; animation-duration: 17s; animation-delay: 3s; }
+.floating-tamil span:nth-child(6) { left: 80%; animation-duration: 19s; animation-delay: 2s; }
+.floating-tamil span:nth-child(7) { left: 90%; animation-duration: 21s; animation-delay: 0s; }
+
+@keyframes floatLetters {
+    0% { transform: translateY(100vh) rotate(0deg); opacity: 0.8; }
+    50% { opacity: 0.9; }
+    100% { transform: translateY(-20vh) rotate(360deg); opacity: 0; }
+}
+
+/* HERO SECTION */
+.hero {
+    text-align: center;
+    padding: 140px 20px;
+    background: #C49E71;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>TamilkudimaganLegacy</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h2>A Legacy of Governance & Tamil Culture</h2>
+    <p>Honoring the enduring contributions of Minister M. Tamilkudimagan</p>
+</section>
+
+<div class="divider">❦ ❦ ❦</div>
+
+<section id="about">
+    <h2>About M. Tamilkudimagan</h2>
+    <h3>Early Life & Education</h3>
+    <p>M. Tamilkudimagan, originally named Sathiah, was born on 15 September 1938 in Tamil Nadu. He was raised in a culturally rich family and received education that instilled strong civic and Tamil values.</p>
+    <h3>Family</h3>
+    <p>He was married and had children who supported his work in governance and cultural preservation. His family continued his legacy in education and public service.</p>
+    <h3>Political Career</h3>
+    <p>He served as the Speaker of the Tamil Nadu Legislative Assembly from 1989 to 1991 and as Minister for Tamil Language & Culture from 1996 to 2001. He was associated with DMK and later contributed across party lines.</p>
+</section>
+
+<div class="divider">❦ ❦ ❦</div>
+
+<section id="achievements">
+    <h2>Achievements & Reforms</h2>
+    <h3>Educational Reforms</h3>
+    <p>He strengthened curriculum standards, promoted inclusive education, and preserved Tamil language in academic institutions.</p>
+    <h3>Welfare & Social Justice</h3>
+    <p>Implemented programs for marginalized communities ensuring equitable resources and sustainable development.</p>
+    <h3>Legislative Leadership</h3>
+    <p>Maintained order as Speaker, promoted transparency, and institutionalized governance reforms in Tamil Nadu.</p>
+    <h3>Timeline</h3>
+    <p><strong>1989-1991:</strong> Speaker of the Legislative Assembly</p>
+    <p><strong>1996-2001:</strong> Minister for Tamil Language & Culture</p>
+    <p><strong>Legacy:</strong> Inspired Tamil education, culture, and governance reforms across the state.</p>
+</section>
+
+<div class="divider">❦ ❦ ❦</div>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <p>Photos coming soon. This section will showcase key moments, events, and cultural contributions.</p>
+</section>
+
+<div class="divider">❦ ❦ ❦</div>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Send a message or feedback:</p>
+    <form>
+        <input type="text" placeholder="Name" style="width:100%; padding:10px; margin-bottom:10px;">
+        <input type="email" placeholder="Email" style="width:100%; padding:10px; margin-bottom:10px;">
+        <textarea placeholder="Message" style="width:100%; padding:10px; margin-bottom:10px;"></textarea>
+        <button type="submit" style="background:#FFD700; border:none; padding:10px 20px; font-weight:bold; cursor:pointer;">Send</button>
+    </form>
+</section>
+
+<footer>
+    © 2026 Tamilkudimagan Legacy | Designed as a Historical Tribute
+</footer>
+
+<!-- Floating Tamil letters -->
+<div class="floating-tamil">
+    <span>அ</span>
+    <span>இ</span>
+    <span>ஊ</span>
+    <span>எ</span>
+    <span>ஐ</span>
+    <span>ஒ</span>
+    <span>ஔ</span>
+</div>
+
+</body>
+</html>
